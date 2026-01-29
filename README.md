@@ -1,4 +1,5 @@
-## Viikotehtävä 2 -  ViewModel
+## Viikotehtävä 3 -   MVVM-arkkitehtuuri käytännössä Sisältö
+
 
 <h>Sovelluksessa käytetään Task-data classia. Datamalliin kuuluu: 
 - id
@@ -25,4 +26,4 @@
 #### viewModel
 <h>ViewModel on parempi parempi tapa säilyttää tila konfiguraatiomuutosten yli (esimerkiksi näytön kääntäminen) kuin pelkkä remember. ViewModel erottaa toimintalogiikan käyttöliittymästä, mikä tekee sovelluksesta selkeämmän ja helpommin testattavan. Lisäksi ViewModel integroituu hyvin muiden Architecture Components -komponenttien kanssa. Remember soveltuu paremmin hetkellisiin UI-tiloihin, esimerkiksi animaatioiden tai väliaikaisten käyttöliittymätilojen hallintaan. </h>
 
-<h>[Linkki videoon](https://youtu.be/HX6WTg3RA7k)</h>
+<h>linkki videoon</h>
