@@ -1,4 +1,4 @@
-## Viikotehtävä 3 -   MVVM-arkkitehtuuri käytännössä Sisältö
+## Viikotehtävä 3 -   MVVM-arkkitehtuuri käytännössä
 
 
 <h>Sovelluksessa käytetään Task-data classia. Datamalliin kuuluu: 
