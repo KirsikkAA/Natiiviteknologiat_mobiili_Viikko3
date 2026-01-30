@@ -26,4 +26,14 @@
 #### viewModel
 <h>ViewModel on parempi parempi tapa säilyttää tila konfiguraatiomuutosten yli (esimerkiksi näytön kääntäminen) kuin pelkkä remember. ViewModel erottaa toimintalogiikan käyttöliittymästä, mikä tekee sovelluksesta selkeämmän ja helpommin testattavan. Lisäksi ViewModel integroituu hyvin muiden Architecture Components -komponenttien kanssa. Remember soveltuu paremmin hetkellisiin UI-tiloihin, esimerkiksi animaatioiden tai väliaikaisten käyttöliittymätilojen hallintaan. </h>
 
+#### MVVM-arkkitehtuuri
+<h>MVVM-arkkitehtuuri on suunnittelumalli, joka erottaa sovelluksen eri vastuualueet:
+- view - UI ja käyttäjän vuorovaikutus
+- viewModel - UI-logiikka ja tilan hallinta
+- Model - Liiketoimintalogiikka ja data </h>
+
+<h> Arkkitehtuuri malli on hyödyllinen Compose-sovelluksissa, koska UI on reaktiivinen ja päivittyy automaattisesti tilan muuttuessa. Logiikka on erotettu käyttöliittymästä ja on selkeämpää luettavaa ja testattavaa. </h>
+
+#### StateFlow
+
 <h>linkki videoon</h>
