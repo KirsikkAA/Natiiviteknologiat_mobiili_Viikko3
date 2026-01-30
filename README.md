@@ -30,10 +30,11 @@
 <h>MVVM-arkkitehtuuri on suunnittelumalli, joka erottaa sovelluksen eri vastuualueet:
 - view - UI ja käyttäjän vuorovaikutus
 - viewModel - UI-logiikka ja tilan hallinta
-- Model - Liiketoimintalogiikka ja data </h>
+- model - Liiketoimintalogiikka ja data </h>
 
-<h> Arkkitehtuuri malli on hyödyllinen Compose-sovelluksissa, koska UI on reaktiivinen ja päivittyy automaattisesti tilan muuttuessa. Logiikka on erotettu käyttöliittymästä ja on selkeämpää luettavaa ja testattavaa. </h>
+<h>Arkkitehtuuri malli on hyödyllinen Compose-sovelluksissa, koska UI on reaktiivinen ja päivittyy automaattisesti tilan muuttuessa. Logiikka on erotettu käyttöliittymästä ja on siten myös selkeämpää luettavaa ja testattavaa. </h>
 
 #### StateFlow
+<h>StateFlow on tapa hallita sovelluksen tilaa reaktiivisesti. Se ilmoittaa käyttöliittymälle automaattisesti, kun tila muuttuu. Compose-sovelluksissa tämä mahdollistaa UI:n automaattisen päivittymisen ViewModelin tilan perusteella. Compose käyttää collectAsState()-funktiota kuunnellakseen StateFlow-tilaa </h>
 
-<h>linkki videoon</h>
+<h>[Linkki videoon](https://youtu.be/Lr7LZhG7Rwc)</h>
